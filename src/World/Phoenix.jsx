@@ -15,7 +15,7 @@ const Phoenix = () => {
     }, [])
 
     return(
-        <mesh ref={phoenixRef} position-x={4} position-y={-2} rotation-y={7} rotation-x={-0.5} scale={0.005}>
+        <mesh ref={phoenixRef} position-x={4} position-y={-1} rotation-y={6} rotation-x={-0.5} scale={0.005}>
             <primitive object={phoenixModel.scene}/>
         </mesh>
     )
