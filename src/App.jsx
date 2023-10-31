@@ -5,7 +5,7 @@ import Info from "./Info/Info"
 const App = () => {
     // Camera settings
     const cameraSettings = {
-        position: [0, 0.5, 5],
+        position: [0, 2, 5],
         fov: 60
     }
 

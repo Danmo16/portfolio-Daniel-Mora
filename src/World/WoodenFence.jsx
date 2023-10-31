@@ -20,6 +20,7 @@ export function WoodenFence(props) {
       <mesh
         castShadow
         geometry={nodes.WoodenFence.geometry}
+        onClick={(e)=> e.stopPropagation()}
       >
         <meshStandardMaterial {...propsTexture}/>
       </mesh>
